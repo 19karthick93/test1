@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  remote_user: arjun
+
+  tasks:
+  - name: printing
+    sudo: yes
+    shell: echo "Hello\t" > hello 
+  
