@@ -5,5 +5,5 @@
   tasks:
   - name: printing
     sudo: yes
-    shell: echo "Hello\t" > hello 
+    shell: date >> hello 
   
